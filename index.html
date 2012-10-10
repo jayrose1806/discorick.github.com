@@ -9,7 +9,7 @@
   <meta name="author" content="Richard Frank">
 
   
-  <meta name="description" content=" Blog Archives Recent Posts ">
+  <meta name="description" content="Blog Archives Recent Posts Latest Tweets Status updating&#8230; $.domReady(function(){ getTwitterFeed("richardthefrank", 4, false); }); Follow @ &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -80,6 +80,22 @@
   </ul>
 </section>
 
+
+<section>
+  <h1>Latest Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("richardthefrank", 4, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/richardthefrank" class="twitter-follow-button" data-show-count="false">Follow @richardthefrank</a>
+  
+</section>
 
 
 
