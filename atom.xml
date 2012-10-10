@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[Digital Mindramblings]]></title>
   <link href="http://discorick.github.com/atom.xml" rel="self"/>
   <link href="http://discorick.github.com/"/>
-  <updated>2012-10-10T11:27:01-06:00</updated>
+  <updated>2012-10-10T12:22:44-06:00</updated>
   <id>http://discorick.github.com/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Richard Frank]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
